@@ -1,0 +1,13 @@
+<%- include('partials/header'); -%>
+  <div class="container">
+  <form action="/" method="post" class="form" onsubmit="checkAnswers(event)">
+    <input type="text" name="input" autocomplete="off" placeholder="GIF">
+    <input type="number" name="limit" min="1" max="20" autocomplete="off" placeholder="no of gifs">
+    <button type="submit" name="button">submit</button>
+  </form>
+
+</div>
+  <!-- <% result.forEach(function(gif){ %>
+  <img src="<%= gif.url %>">
+  <% }); %> -->
+<%- include('partials/footer'); -%>

@@ -1,0 +1,17 @@
+body{
+  background-color: #222831;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;;
+    text-align: center;
+    background-color: #1abc9c;
+    margin-top: 15px;
+    padding: 1% 5%;
+    font-size: 1.2em;
+
+}

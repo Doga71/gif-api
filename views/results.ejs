@@ -1,0 +1,11 @@
+<%- include('partials/resHeader'); -%>
+<div class="container">
+  <button type="button" name="button" class="btn btn-outline-light"><a href="/">Go Back</a></button>
+  <div>
+    <% result.forEach(function(gif){ %>
+    <img src="<%= gif.url %>">
+    <% }); %>
+  </div>
+
+</div>
+<%- include('partials/footer'); -%>
